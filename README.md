@@ -1,2 +1,2 @@
 # studentsite
-This is my class website. 
+This is Leighna's class website. 
