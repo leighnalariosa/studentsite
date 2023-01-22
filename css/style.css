@@ -2,3 +2,136 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
+/* GLOBAL COLORS */
+body { color: rgba(0, 0, 0, 0.8); }
+a { color: rgba(0, 102, 204, 1); }
+a:hover { color: rgba(0, 51, 153, 1); }
+
+/* GLOBAL TYPOGRAPHY */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 88.75%; /* 14px */
+  line-height: 1.4;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(153, 0, 0, 1);
+    color: rgba(255, 255, 255, 0.8); 
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+header a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* SITE ID */
+.site-id h1 {
+    margin: 0;
+}
+
+/* SITE NAV */
+.site-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-nav  a {
+    display: block;
+    padding: 1em;
+}
+
+<main>
+    <section>
+        ... (hero h2 and p go here)
+    </section>
+    <section>
+        ... (course list will go here)
+    </section>
+</main>
+ 
+/* MAIN */
+main {
+    background: rgba(0,0,0,.05);
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 1em;
+}
+
+/* SOCIAL NAV */
+.social-nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: rgba (255,0,0, .05); 
+    border: 2px solid rgba (255,0,0, .05);
+}
+
+.social-nav  a {
+    display: block;
+    padding: 1em;
+}
+
+ /* HERO SECTION */
+.hero {
+    background-color: rgba(153, 0, 0, 1);
+    text-align: center;
+    color: white;
+    padding: 6em 1em;
+}
+
+.hero h2 {
+    font-size: 6em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.hero p {
+    max-width: 30em;
+    margin: 1em auto;
+}
+
+ /* COURSES SECTION */
+.courses {
+    padding: 6em 1em;
+    display: grid;
+    justify-content: center;
+}
+
+.courses ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.courses h3 {
+    text-align: center;
+}
+
+
+
+
+
+/* FOR WEB DEV PURPOSES ONLY */
+/* body, * {
+    background-color: rgba(0,0,0,.05);
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgba(0,0,0,.5);
+} */
