@@ -52,15 +52,6 @@ header a:hover {
     padding: 1em;
 }
 
-<main>
-    <section>
-        ... (hero h2 and p go here)
-    </section>
-    <section>
-        ... (course list will go here)
-    </section>
-</main>
- 
 /* MAIN */
 main {
     background: rgba(0,0,0,.05);
