@@ -116,9 +116,19 @@ footer {
     text-align: center;
 }
 
+/* STYLING FOR SUBPAGES */
+.page-sub .hero { 
+    background-color: rgba(0, 0, 0, .01);
+    color: rgba(0,0,0,.8);
+}   
+
+/* COURSE WORK SECTION */
+ .coursework {
+    padding: 6em 1em;
+ }
 
 
-
+ 
 
 /* FOR WEB DEV PURPOSES ONLY */
 /* body, * {
