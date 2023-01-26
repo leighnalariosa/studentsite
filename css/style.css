@@ -98,8 +98,8 @@ aside {
     display: flex;
     justify-content: center;
     list-style: none;
-    background: rgba (255,0,0, .05); 
-    border: 2px solid rgba (255,0,0, .05);
+    background: rgba(255,0,0, .05); 
+    border: 2px solid rgba(255,0,0, .05);
 }
 
 .social-nav  a {
