@@ -17,7 +17,7 @@ body {
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(71, 230, 255);
+    background-color: rgba(254, 122, 122, 0.8);
     color: rgba(0, 0, 0, 0.8); 
     padding: 1em;
     display: grid;
@@ -60,7 +60,7 @@ main {
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(71, 230, 255);
+    background-color: rgb(255, 205, 243);
     text-align: center;
     color: white;
     padding: 6em 1em;
@@ -142,7 +142,7 @@ aside {
     }
 }
 
-/* CUSTOM STYLING FOR SPECIFIC & SUB PAGES */
+/* SUB PAGES */
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
