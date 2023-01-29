@@ -14,7 +14,6 @@ body {
   line-height: 1.4;
 }
 
-
 /* SITE STRUCTURE */
 
 header {
@@ -34,7 +33,6 @@ header a {
 header a:hover {
     color: rgba(255, 255, 255, 1);
 }
-
 
 /* SITE ID */
 .site-id h1 {
@@ -144,11 +142,26 @@ aside {
     }
 }
 
-/* SUB PAGES */
+/* CUSTOM STYLING FOR SPECIFIC & SUB PAGES */
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
 }
+
+.page-home .hero{
+    background-image: url('../img/flowers.png');
+    background-size: cover;
+    background-position: center;
+    padding: 30vh 1em 20vh 1em;
+}
+
+.page-home header { 
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+.page-home header a{
+    color: rgba(254, 122, 122, 0.8);
 
 /* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
 .coursework {
