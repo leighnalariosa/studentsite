@@ -4,8 +4,8 @@ body { margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1); }
-a:hover { color: rgba(0, 51, 153, 1); }
+a { color: rgba(254, 122, 122, 0.8); }
+a:hover { color: rgba(95, 95, 95, 0.8); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
@@ -18,7 +18,7 @@ body {
 
 header {
     background-color: rgba(254, 122, 122, 0.8);
-    color: rgba(0, 0, 0, 0.8); 
+    color: rgba(255, 228, 254, 0.8); 
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,12 +26,12 @@ header {
 }
 
 header a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 header a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 /* SITE ID */
@@ -144,8 +144,8 @@ aside {
 
 /* SUB PAGES */
 .page-sub .hero {
-    background-color:rgba(0, 0, 0, 0.1);
-    color: rgba(0, 0, 0, 0.8);
+    background-color:rgb(255, 255, 255);
+    color: rgba(254, 122, 122, 0.8);
 }
 
 .page-home .hero{
