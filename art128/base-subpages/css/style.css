@@ -98,6 +98,27 @@ a:hover {
     text-align: center;
 }
 
+.hidden {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+@media (min-width: 768px) {
+.hidden-desktop {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        }
+    }    
+
 .full-width {
     max-width: none; 
     width: 100%;
