@@ -446,12 +446,12 @@ article .date {
 
 article h2.subhead { 
     font-size: 1.5em;
-    line-height; 1.2;
+    line-height: 1.2;
 }
 
 article .subhead {
     font-weight: normal;
-    font-size: .7;
+    font-size: .7em;
 }
 
 article .date {
@@ -465,7 +465,7 @@ article p + h2,
 article p + h3,
 article p + h4,
 article p + h5,
-article p + h6, {
+article p + h6 {
     margin-top: 1.5em;
 }
 

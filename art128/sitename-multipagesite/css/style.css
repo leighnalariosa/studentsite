@@ -85,7 +85,7 @@ p {
 
 /* LINKS */
 a {
-    color: rbga(0,0,153,.8);
+    color: #036;
     text-decoration: none;  
 }
 a:hover {
@@ -446,7 +446,7 @@ article .date {
 
 article h2.subhead { 
     font-size: 1.5em;
-    line-height; 1.2;
+    line-height: 1.2;
 }
 
 article .subhead {
@@ -465,7 +465,7 @@ article p + h2,
 article p + h3,
 article p + h4,
 article p + h5,
-article p + h6, {
+article p + h6 {
     margin-top: 1.5em;
 }
 

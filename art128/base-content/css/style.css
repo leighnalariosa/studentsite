@@ -85,7 +85,7 @@ p {
 
 /* LINKS */
 a {
-    color: rbga(0,0,153,.8);
+    color: rgba(0,0,153,.8);
     text-decoration: none;  
 }
 a:hover {
