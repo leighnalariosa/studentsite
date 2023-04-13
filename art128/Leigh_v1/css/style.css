@@ -523,7 +523,7 @@ body {
   padding: 0.5em 4%;
 }
 @media (min-width: 768px) {
-  .site-header {
+  .site-header .container {
     display: flex;
     justify-content: space-between;
     padding-top: 0.75em;
@@ -574,37 +574,26 @@ section {
 }
 
 /* Hero Sections */
-.container .hero {
+.hero .container {
   position: relative;
-  top: 2em;
-  margin-bottom: 3em;
 }
 
 .hero {
-  background: #ddd;
   border-top: none;
-  padding: 4em 1em 3em 1em;
-  margin-bottom: 1.5em;
+  padding: 0;
 }
-.hero h1,
+
 .hero h2 {
-  font-size: 3em;
+  font-size: 6em;
   line-height: 1.1em;
   max-width: 10em;
+  position: absolute; 
+  top: 20%;
+  right: 15%;
+  margin: 0;
+  padding: 0;
 }
-.hero p {
-  max-width: 22em;
-}
-.hero.text-centered h1,
-.hero.text-centered h2,
-.hero.text-centered h3,
-.hero.text-centered h4,
-.hero.text-centered h5,
-.hero.text-centered h6,
-.hero.text-centered p {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .hero.full-width {
   margin-top: 0;
   margin-bottom: 0;
@@ -621,6 +610,14 @@ section {
 
 .site-header.sticky + .site-main {
   padding-top: 3em;
+}
+
+/* Ontop header - works with a class="ontop" on .site-header */
+.site-header.ontop {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  background-color: transparent;
 }
 
 /* Colored Sections */
@@ -663,36 +660,14 @@ section.hero.superlightgrey, section.hero.lightgrey, section.hero.darkgrey {
 
 /* Articles */
 article {
-  max-width: 38em;
+  /* max-width: 38em; */
   margin: 0 auto 8em auto;
   padding: 2em 0;
+  columns: 2;
 }
+
 article h1 {
   text-align: center;
-}
-article h1 + h2 {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 1.25em;
-  font-weight: normal;
-  margin-bottom: 1em;
-}
-article .date {
-  text-align: center;
-  font-size: 0.625em;
-  line-height: 0.625em;
-  color: #999;
-  font-weight: normal;
-}
-article .date + p {
-  margin-top: 2em;
-}
-article p + h2,
-article p + h3,
-article p + h4,
-article p + h5,
-article p + h6 {
-  margin-top: 1em;
 }
 
 /* Posts */
@@ -1173,3 +1148,7 @@ h5,
 h6 {
 }
 */
+
+#about .container {
+  background-color:rgba(243, 230, 217, 0.962)
+}
