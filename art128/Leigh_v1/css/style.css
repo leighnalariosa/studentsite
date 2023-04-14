@@ -176,6 +176,11 @@ blockquote cite:before {
   clear: both;
 }
 
+.twocoltext {
+  column-count: 2;
+  column-gap: 2em;
+}
+
 /* HORIZONTAL RULES */
 hr {
   border: 0;
@@ -405,6 +410,10 @@ body {
   padding: 0 4%;
 }
 
+.container.wide {
+  max-width: 1400px; 
+}
+
 /* SMALL- MEDIA QUERY (e.g. for mobile overrides) */
 @media (max-width: 767px) {
   /* Inherits Small/Mobile Body Type from Above */
@@ -432,9 +441,9 @@ body {
   }
 
   /* FIXED WIDTH */
-  .container {
+  /* .container {
     max-width: 1200px;
-  }
+  } */
 }
 /* Grid */
 section,
@@ -581,6 +590,7 @@ section {
 .hero {
   border-top: none;
   padding: 0;
+  margin-bottom: -100px;
 }
 
 .hero h2 {
@@ -1149,6 +1159,13 @@ h6 {
 }
 */
 
-#about .container {
-  background-color:rgba(243, 230, 217, 0.962)
+#about h2 {
+color: white;
+font-size: 2em; 
+text-align: center;
+}
+
+#about .card {
+  background-color:rgba(243, 230, 217, 0.962);
+  padding: 4em; 
 }
