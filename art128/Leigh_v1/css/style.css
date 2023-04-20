@@ -1169,3 +1169,35 @@ text-align: center;
   background-color:rgba(243, 230, 217, 0.962);
   padding: 4em; 
 }
+
+#contact {
+  position: relative;
+}
+
+#contact::before {
+  content:""; 
+  background-image: url(../img/leigh_bananaleaf.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: -5vw center;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20vw;
+}
+
+#contact::after {
+  content:""; 
+  background-color: pink;
+  background-image: url(../img/leigh_ginger_flowers.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5vw center;
+  position: absolute; 
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 20vw;
+}
+
