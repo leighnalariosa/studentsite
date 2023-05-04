@@ -1193,7 +1193,7 @@ text-align: center;
 
 #contact::after {
   content:""; 
-  background-color: pink;
+
   background-image: url(../img/leigh_ginger_flowers.gif);
   background-size: contain;
   background-repeat: no-repeat;
