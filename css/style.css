@@ -205,6 +205,11 @@ dd {
     margin: 0;
 }
 
+/* LISTS OF ASSIGNMENTS */
+.list-assignments li li {
+    color: rgb(141, 139, 139); 
+}
+
 /* FOR DEV PURPOSES */
 /* body * {
     background-color: rgba(0,0,0,.05) !important;
